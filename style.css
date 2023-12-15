@@ -1,0 +1,579 @@
+:root
+{
+    --red-color: #08b465;
+    --blue-color: rgb(49, 49, 225);
+    --white-color: white;
+    --green-color: green;
+    --color: rgb(136, 136, 136);
+    --black-color: rgb(65, 65, 65);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* Landing Page Starts Here */
+.landing-page
+{
+    background: url('./white-textured-wall-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.header
+{
+    
+}
+
+
+.header ul li
+{
+    margin: 0 3px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+}
+.header ul li a i
+{
+    color: var(--red-color);
+}
+
+
+
+
+.section
+{
+    margin-top: 90px;
+    text-align: center;
+}
+.section #lp-heading
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: var(--black-color);
+}
+.section #lp-paragraph
+{
+    font-size: 19px;
+    color: var(--color);
+}
+
+
+
+
+.search
+{
+    position: relative;
+    margin: 70px 0;
+}
+.section .search #lp-searchbox
+{
+    width: 100%;
+    height: 70px;
+    border-radius: 50px;
+    padding: 0 40px;
+    outline: none;
+    border-style: none;
+    box-shadow: 0 0 10px #0000001a;
+}
+.section .dropdown
+{
+    position: absolute;
+    top: 13px;
+    right: 86px;
+}
+.section .search #categories
+{
+    background-color: transparent;
+    color: rgb(139, 139, 139);
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.section .search #categories:hover
+{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid var(--red-color);
+    box-shadow: 0 0 2px #0000001a;
+}
+.section .dropdown .dropdown-menu .dropdown-item
+{
+    padding-bottom: 15px;
+}
+.section .dropdown .dropdown-menu .dropdown-item:hover
+{
+    color: var(--red-color);
+    background-color: rgb(247, 247, 247);
+}
+.section #right-arrow
+{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    border-radius: 50px;
+    padding: 15px 16px;
+    background-color: var(--red-color);
+    color: white;
+}
+
+
+
+
+
+.quick-help #text
+{
+    color: rgb(70, 70, 70);
+}
+.quick-help a i
+{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: var(--red-color);
+}
+.quick-help a i:hover
+{
+    transition: .5s all;
+    transform: scale(1.05);
+}
+/* Landing Page Ends Here */
+
+
+
+/* Links Section Starts Here */
+.links
+{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    box-shadow:  0 0 18px #0000001a;
+    padding: 30px 0;
+    text-align: center;
+}
+.links a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--black-color);
+}
+.links a i
+{
+    color: var(--red-color);
+}
+.links-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-section a i
+{
+    padding: 0 10px;
+}
+.links-section .back-next
+{
+    font-weight: lighter;
+}
+/* Links Section Ends Here */
+
+
+
+
+/* Browse Help Topics Section Starts Here-Includes Boxes */
+.sec
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.line
+{
+    padding-bottom: 7px;
+}
+.sec .line::after
+{
+    content: "";
+    width: 60px;
+    background-color: var(--red-color);
+    display: block;
+    height: 5px;
+    border-radius: 50px;
+}
+.browse-help-section .bs-heading
+{
+    color: var(--black-color);
+    font-size: 45px;
+    font-weight:400;
+}
+.browse-help-section .bs-paragraph
+{
+    color: var(--color);
+    font-size: 16px;
+}
+.boxes
+{
+    background: linear-gradient(55deg,#043e80,#0f51a3);
+    border-radius: 12px;
+    margin: 10px 0px;
+}
+.boxes:hover
+{
+    transition: .5s all;
+    transform: scale(1.02);
+}
+.box
+{
+    padding: 0 15px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.box h3
+{
+    color: #2dbe87;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+}
+.box a
+{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+}
+.box a:hover
+{
+    color: rgb(255, 255, 36);
+}
+.box a i 
+{
+    font-size: 10px;
+    padding-right: 10px;
+}
+.icon-links
+{
+    padding: 5px 0;
+}
+/* Browse Help Topics Section Ends Here-Includes Boxes */
+
+
+
+
+
+
+
+
+
+
+
+/* Recent Post Section Starts Here (Includes Cards) */
+.recent-posts
+{
+    background-color: #e8ecef;
+}
+.recent-posts .rp-heading
+{
+    color: var(--black-color);
+    font-size: 45px;
+    font-weight:400;
+}
+.recent-posts .rp-paragraph
+{
+    color: var(--color);
+    font-size: 16px;
+}
+.cards
+{
+    padding-bottom: 30px;
+    padding-top: 15px;
+    margin: 10px 0px;
+}
+.cards:hover
+{
+    transition: .5s all;
+    transform: scale(1.01);
+}
+.rp-date
+{
+    color: var(--color);
+}
+.cards a
+{
+    background-color: #08b465;
+    color: white;
+}
+.cards a:hover
+{
+    background-color: #079955;
+    color: white;
+}
+/* Recent Post Section Ends Here (Includes Cards) */
+
+
+
+
+
+
+
+/* Featured Articles Section Starts Here (Includes Cards as Recent Post Section) */
+.featured-articles
+{
+    background: linear-gradient(45deg,#043e80,#0f51a3);
+}
+.featured-articles .fs-heading
+{
+    color: #fff;
+    font-size: 45px;
+    font-weight:400;
+}
+.featured-articles .fs-paragraph
+{
+    color: var(--color);
+    font-size: 16px;
+}
+.fs-links
+{
+    padding-top: 20px;
+}
+.fs-links a
+{
+    text-decoration: none;
+    padding: 0 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #fff !important;
+}
+.fs-links a:hover
+{
+    border-bottom: 5px solid var(--color);
+}
+.featured-articles .card-body .img1
+{
+    height: 300px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+.featured-articles .card-body .p2
+{
+    color: var(--color)
+}
+.featured-articles .card-body a
+{
+    background-color: #08b465;
+    color: white;
+}
+.featured-articles .card-body a:hover
+{
+    background-color: #079955;
+    color: white;
+}
+/* Featured Articles Section Ends Here (Includes Cards as Recent Post Section) */
+
+
+
+
+
+
+/* FAQ's section Starts Here */
+.FAQ
+{
+    background-color: #e8ecef;
+}
+.FAQ .faq-heading
+{
+    color: var(--black-color);
+    font-size: 45px;
+    font-weight:400;
+}
+.FAQ .faq-paragraph
+{
+    color: var(--color);
+    font-size: 16px;
+}
+details
+{
+    margin: 10px 0;
+    border-radius: 10px;
+}
+details .summary
+{
+    color: rgb(109, 117, 141);
+   /* color: rgb(245, 61, 61); */
+   outline: none;
+   
+}
+details .summary:hover
+{
+    color: var(--red-color);
+}
+.summary-content
+{
+    padding-top: 15px;
+}
+.s-line
+{
+    padding-bottom: 15px;
+}
+details i
+{
+    color: rgb(245, 61, 61);
+    font-size: 8px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+details.styled
+{
+    padding: 1rem;
+    background-color: var(--white-color);
+}
+/* FAQ's section Ends Here */
+
+
+
+
+
+
+/* Browse Help Topics Section Starts Here-Includes Boxes */
+.downloads .download-heading
+{
+    color: var(--black-color);
+    font-size: 45px;
+    font-weight:400;
+}
+.downloads .download-paragraph
+{
+    color: var(--color);
+    font-size: 16px;
+}
+.d-boxes
+{
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 12px;
+    margin: 10px 0px;
+    box-shadow:  0 0 4px #0000001a;
+    
+}
+.d-box
+{
+    padding: 0 15px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.d-box h3
+{
+    color: var(--red-color);
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+}
+.d-box a
+{
+    color: var(--black-color);
+    text-decoration: none;
+}
+.d-box a:hover
+{
+    color: var(--blue-color);
+}
+.d-box a i 
+{
+    color: var(--red-color);
+    font-size: 10px;
+    padding-right: 10px;
+}
+.icon-links
+{
+    padding: 5px 0;
+}
+/* Browse Help Topics Section Ends Here-Includes Boxes */
+
+
+
+
+
+
+/* Footer Section Starts Here */
+.footer
+{
+    background: linear-gradient(55deg,#043e80,#0f51a3);
+}
+.breadcrumb-item
+{
+    color: white;
+}
+.breadcrumb li a
+{
+    color: white;
+}
+.breadcrumb li a:hover
+{
+    color: rgb(204, 204, 204);
+}
+.f-boxes
+{
+    /* border: 1px solid rgb(211, 211, 211); */
+    border-radius: 12px;
+    margin: 10px 0px;
+    /* box-shadow:  0 0 4px #0000001a; */
+}
+.d-box
+{
+    padding: 0 15px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.f-box h3
+{
+    color: var(--red-color);
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+}
+.f-box a
+{
+    color: white;
+    text-decoration: none;
+}
+.f-box a:hover
+{
+    color: yellow;
+}
+.f-box a i 
+{
+    color: white;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.icon-links
+{
+    padding: 5px 0;
+}
+.footer img
+{
+    width: 200px;
+    height: 100px;
+}
+.social-media-icons
+{
+    color: var(--red-color);
+    /* padding: 10px; */
+    padding: 15px 0;
+}
+.social-media-icons a i
+{
+    font-size: 22px;
+    padding: 0 7px;
+}
+.footer-end
+{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Footer Section Ends Here */

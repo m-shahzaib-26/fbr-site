@@ -1,0 +1,319 @@
+/* MIN->ABOVE */
+/* MAX->BELOW */
+
+@media (min-width:320px) and (max-width:480px)
+{
+    .section #lp-heading
+    {
+        font-size: 45px;
+    }
+    .section #lp-paragraph
+    {
+        font-size: 14px;
+    }
+    .section .dropdown
+    {
+        position: absolute;
+        top: 100px;
+        right: 150px;
+    }
+    .section .dropdown .dropdown-menu .dropdown-item
+    {
+        padding-bottom: 12px;
+    }
+    .quick-help
+    {
+        margin-top: 100px;
+    }
+    .links-section
+    {
+        flex-direction: column;
+    }
+    .links-section a i
+    {
+        padding: 15px 5px;
+    }
+    .links a
+    {
+        font-size: 18px;
+    }
+    .browse-help-section .bs-heading
+    {
+        color: var(--black-color);
+        font-size: 35px;
+        font-weight:400;
+    }
+    .browse-help-section .bs-paragraph
+    {
+        color: var(--color);
+        font-size: 15px;
+    }
+    .recent-posts .rp-heading
+    {
+        color: var(--black-color);
+        font-size: 35px;
+        font-weight:400;
+    }
+    .recent-posts .rp-paragraph
+    {
+        color: var(--color);
+        font-size: 15px;
+    }
+    .cards
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .browse-help-section .bs-heading
+    {
+        color: var(--black-color);
+        font-size: 35px;
+        font-weight:400;
+        text-align: center;
+    }
+    .browse-help-section .bs-paragraph
+    {
+        color: var(--color);
+        font-size: 13px;
+        text-align: center;
+    }
+    .downloads .download-heading
+    {
+        color: var(--black-color);
+        font-size: 35px;
+        font-weight:400;
+        text-align: center;
+    }
+    .downloads .download-paragraph
+    {
+        color: var(--color);
+        font-size: 13px;
+        text-align: center;
+    }
+    .recent-posts .rp-heading
+    {
+        color: var(--black-color);
+        font-size: 35px;
+        font-weight:400;
+        text-align: center;
+    }
+    .recent-posts .rp-paragraph
+    {
+        color: var(--color);
+        font-size: 13px;
+        text-align: center;
+    }
+    .featured-articles .card-body .img1
+    {
+        height: 200px;
+        width: 215px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .featured-articles .fs-heading
+    {
+        color: #fff;
+        font-size: 35px;
+        font-weight:400;
+        text-align: center;
+    }
+    .featured-articles .fs-paragraph
+    {
+        color: var(--color);
+        font-size: 13px;
+        text-align: center;
+    }
+    .footer img
+    {
+        width: 150px;
+        height: 80px;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:481px) and (max-width:768px)
+{
+    .header ul li
+    {
+        margin: 0 2px;
+        font-size: 15px;
+    }
+    .section #lp-heading
+    {
+        font-size: 48px;
+    }
+    .section #lp-paragraph
+    {
+        font-size: 16px;
+        color: var(--color);
+    }
+    .links #all i
+    {
+        margin-bottom: 25px;
+    }
+    .sec-links
+    {
+        display: inline-block;
+    }
+    .links-section
+    {
+        flex-direction: column;
+    }
+    .links-section a i
+    {
+        padding: 18px 5px;
+    }
+    .cards
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .browse-help-section .bs-heading
+    {
+        color: var(--black-color);
+        font-size: 40px;
+        font-weight:400;
+        text-align: center;
+    }
+    .browse-help-section .bs-paragraph
+    {
+        color: var(--color);
+        font-size: 15px;
+        text-align: center;
+    }
+    .downloads .download-heading
+    {
+        color: var(--black-color);
+        font-size: 40px;
+        font-weight:400;
+        text-align: center;
+    }
+    .downloads .download-paragraph
+    {
+        color: var(--color);
+        font-size: 15px;
+        text-align: center;
+    }
+    .recent-posts .rp-heading
+    {
+        color: var(--black-color);
+        font-size: 40px;
+        font-weight:400;
+        text-align: center;
+    }
+    .recent-posts .rp-paragraph
+    {
+        color: var(--color);
+        font-size: 15px;
+        text-align: center;
+    }
+    .featured-articles .card-body .img1
+    {
+        height: 300px;
+        width: 380px;
+        padding-bottom: 20px;
+    }
+    .featured-articles .card-body .img1
+    {
+        height: 200px;
+        width: 215px;
+        padding-bottom: 20px;
+    }
+    .featured-articles .fs-heading
+    {
+        color: #fff;
+        font-size: 45px;
+        font-weight:400;
+        text-align: center;
+    }
+    .featured-articles .fs-paragraph
+    {
+        color: var(--color);
+        font-size: 16px;
+        text-align: center;
+    }
+    .FAQ .faq-heading
+    {
+        color: var(--black-color);
+        font-size: 40px;
+        font-weight:400;
+        text-align: center;
+    }
+    .FAQ .faq-paragraph
+    {
+        color: var(--color);
+        font-size: 15px;
+        text-align: center;
+    }
+   
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:769px) and (max-width:1024px)
+{
+    .header ul li
+    {
+        margin: 0 2px;
+        font-size: 15px;
+    }
+    .section #lp-heading
+    {
+        font-size: 63px;
+    }
+    .links #all i
+    {
+        margin-bottom: 20px;
+    }
+    .featured-articles .card-body .img1
+    {
+        height: 240px;
+        width: 305px;
+        padding-bottom: 20px;
+    }
+    
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:1025px) and (max-width:1200px)
+{
+    .header ul li
+    {
+        margin: 0 2px;
+        font-size: 16px;
+    }
+    .links #all i
+    {
+        margin-bottom: 20px;
+    }
+    .links-section a i
+    {
+        padding: 0 5px;
+    }
+    .featured-articles .card-body .img1
+    {
+        height: 300px;
+        width: 420px;
+        padding-bottom: 20px;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 1201px) and (max-width:1400px)
+{
+    .featured-articles .card-body .img1
+    {
+        height: 300px;
+        width: 510px;
+        padding-bottom: 20px;
+    }
+}
